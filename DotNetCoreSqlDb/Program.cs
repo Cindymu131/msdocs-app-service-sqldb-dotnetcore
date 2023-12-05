@@ -10,7 +10,7 @@ builder.Services.addStackExhangeRedisCache(optons =>
 {
     options.Configuration = builder.Configuration["AZURE_REDIS_CONNECTIONSTRING"];
     options.InstanceName = "SampleInstance";
-)}
+});
 
 
 // Add services to the container.
